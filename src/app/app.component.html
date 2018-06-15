@@ -1,0 +1,42 @@
+<div class="container">
+    <div>
+        <h1>Fetching data from api</h1>
+    </div>
+  <div>
+    <table class="table table-bordered">
+        <thead >
+            <th><h2>SSN</h2></th>
+            <th><h2>First Name</h2></th>
+            <th><h2>Last Name</h2></th>
+            <th><h2>Address</h2></th>
+            <th><h2>Salary</h2></th>
+            <th><h2>Pin Code</h2></th>
+            <th><h2>Total Expense</h2></th>
+            <th><h2>Milk</h2></th>
+            <th><h2>Food</h2></th>
+            <th><h2>Other Expense</h2></th>
+        </thead>
+        <thead></thead>
+
+        <tbody>
+            <tr *ngFor="let product of contacts">
+                <td>{{product.ssn}}</td>
+                <td>{{product.fname}}</td>
+                <td>{{product.lname}}</td>
+                <td>{{product.add}}</td>
+                <td>{{product.salary}}</td>
+                <td>{{product.pincode}}</td>
+                <td>{{product.totalexpense}}</td>
+                <td>{{product.milk}}</td>
+                <td>{{product.food}}</td>
+                <td>{{product.other}}</td>
+            </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- <div class="enter_ssn">
+    <label>Enter SSN</label>
+    <input type="text" name="enter_ssn">
+</div> -->

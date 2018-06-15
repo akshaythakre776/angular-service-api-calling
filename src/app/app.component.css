@@ -1,0 +1,22 @@
+/* table, td, th {    
+    border: 3px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 10px;
+} */
+
+h1 {
+    color:bisque;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;    
+    text-shadow: 2px 1px gray;
+}
